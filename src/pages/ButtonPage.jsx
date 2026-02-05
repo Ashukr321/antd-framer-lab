@@ -1,19 +1,22 @@
 import React from 'react'
 import ButtonComp from '../components/buttonComp'
-import { useNavigate } from 'react-router-dom'
 import { Button } from 'antd';
+import FloatButtonComp from '../components/FloatButtonComp';
 const ButtonPage = () => {
-  const navigate = useNavigate();
   return (
-    
-    <div style={{padding:"20px"}}>
-      
-      <Button onClick={()=>navigate(-1)} type="primary" style={{marginBottom:"20px"}}>
-        Back
-      </Button>
-      
+
+    <div style={{ padding: "20px" }}>
       <br />
-      <ButtonComp/>
+      <div style={{marginBottom:"10px"}}>
+        <ButtonComp />
+      </div>
+      <div>
+        <p style={{fontWeight:"bold"}}>FloatButton</p>
+
+        <div>
+          <FloatButtonComp/>
+        </div>
+      </div>
     </div>
   )
 }
