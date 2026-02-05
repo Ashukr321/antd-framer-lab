@@ -1,18 +1,45 @@
-# React + Vite
+# Ant Design + Framer Motion Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive laboratory for mastering UI development by integrating **Ant Design’s** robust component library with **Framer Motion’s** powerful animation capabilities. This project focuses on building high-performance, accessible, and aesthetically pleasing interfaces.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Ant Design Integration**: Deep dive into AntD components (Modals, Forms, Tables).
+- **Framer Motion Animations**: detailed layout transitions, gestures, and component animations.
+- **Advanced Theming**: Custom themes using AntD's `ConfigProvider`.
+- **Complex Interactions**: Building real-world scenarios with complex state and animations.
+- **Accessibility**: Ensuring all custom interactions remain accessible.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Framework**: [React](https://react.dev/) (Vite)
+- **UI Library**: [Ant Design](https://ant.design/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [@ant-design/icons](https://ant.design/components/icon)
 
-Note: This will impact Vite dev & build performances.
+## 📦 Getting Started
 
-## Expanding the ESLint configuration
+1.  **Clone the repository**
+    ```bash
+    git clone <repository-url>
+    cd antd-framer-lab
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+## 🔗 Official Documentation
+
+- **Ant Design**: [https://ant.design/docs/react/introduce](https://ant.design/docs/react/introduce)
+- **Framer Motion**: [https://www.framer.com/motion/](https://www.framer.com/motion/)
+
+---
+
+*Happy Coding!*
