@@ -1,12 +1,18 @@
-import {Button} from 'antd';
+import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 const ComponentsPage = () => {
   return (
-    <div style={{backgroundColor:"black", height:"auto", padding:"30px",display:"flex",justifyContent:"center",alignItems:"center",color:"white"}}>
+    <div style={{ backgroundColor: "black", height: "auto", padding: "30px", display: "flex", justifyContent: "center", alignItems: "center", color: "white" }}>
       <Link to="/button">
         <Button>button</Button>
       </Link>
+
+      <Link to="/TypoGraphyPage">
+        <Button>TypoGraphy</Button>
+      </Link>
+      
     </div>
+
   )
 }
 

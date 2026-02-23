@@ -5,6 +5,7 @@ import MainPage from './mainpage'
 import ButtonPage from './pages/ButtonPage'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { Button } from 'antd'
+import TypoGraphyPage from './pages/TypoGraphyPage'
 function App() {
   const navigate = useNavigate();
   const path = useLocation();
@@ -22,6 +23,8 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/components" element={<ComponentsPage />} ></Route>
         <Route path="/button" element={<ButtonPage />} ></Route>
+        <Route path="/TypoGraphyPage" element={<TypoGraphyPage />} ></Route>
+
       </Routes>
     </>
   )
