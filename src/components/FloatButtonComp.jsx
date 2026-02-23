@@ -34,7 +34,11 @@ const FloatButtonComp = () => {
       <FloatButton.Group shape='circle' >
         {/* <FloatButton type='primary'  style={{backgroundColor:"orange",insetInlineEnd:20}} icon={<QuestionCircleFilled/>} /> */}
         {/* <FloatButton content="hello" icon={<QuestionCircleFilled/>} /> */}
-        <FloatButton icon={<QuestionCircleFilled />} />
+        <FloatButton tooltip={{
+          title: "delete",
+          color: "blue",
+          placement: "top"
+        }} icon={<QuestionCircleFilled />} />
 
       </FloatButton.Group>
 
@@ -62,8 +66,8 @@ const FloatButtonComp = () => {
         }} badge={{ count: 10 }} icon={<BellFilled />} />
       </div>
 
-        <br />
-      <Button style={{width:"120px"}} type='primary' loading={isLoading} onClick={handleSubmit} >
+      <br />
+      <Button style={{ width: "120px" }} type='primary' loading={isLoading} onClick={handleSubmit} >
         {isLoading ? "submitting..." : "submit"}
       </Button>
     </div>

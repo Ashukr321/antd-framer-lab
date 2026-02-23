@@ -1,0 +1,10 @@
+☐ button 
+    type : primary , default , dashed , text , link  
+    this also contains the loading state : attributes : 
+
+
+
+☐ FloatButton : shape , circle square , FloatButton tooltip 
+
+
+
