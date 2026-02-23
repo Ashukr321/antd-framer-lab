@@ -5,6 +5,17 @@
 
 
 ☐ FloatButton : shape , circle square , FloatButton tooltip 
+      floatButton with badges
+☐ FloatButtonGroup
+         this will contains multiple FloatButton
+float button contains 1. attributes :  badge 
+
+☐ icons :
+        attribute :
+            spin , rotate 
+        Custom icons : 
+            
+
 
 
 

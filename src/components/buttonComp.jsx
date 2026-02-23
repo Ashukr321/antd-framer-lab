@@ -17,7 +17,7 @@ const ButtonComp = () => {
         <Button type="primary" size=''>Primary</Button>
         <Button type="dashed" size=''>dashed</Button>
         <Button type='text'>text</Button>
-    
+
         {/* // text work like button  */}
         <Button type='link'>Link</Button>
         {/* link : instead of using link or anchor we can use  button type link this behave like  a in prod. 
@@ -26,6 +26,8 @@ const ButtonComp = () => {
         <Button>
           outlined
         </Button>
+
+
       </div>
     </>
   )

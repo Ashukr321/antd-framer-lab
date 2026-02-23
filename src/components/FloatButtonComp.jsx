@@ -1,5 +1,5 @@
 import { Button, FloatButton } from 'antd'
-import { QuestionCircleFilled, CustomerServiceOutlined, BellFilled } from '@ant-design/icons'
+import { QuestionCircleFilled, CustomerServiceOutlined, BellFilled, UserAddOutlined, HomeOutlined, LoadingOutlined } from '@ant-design/icons'
 import { useSearchParams } from 'react-router-dom'
 import { useState } from 'react'
 const FloatButtonComp = () => {
@@ -70,6 +70,28 @@ const FloatButtonComp = () => {
       <Button style={{ width: "120px" }} type='primary' loading={isLoading} onClick={handleSubmit} >
         {isLoading ? "submitting..." : "submit"}
       </Button>
+
+
+      {/* FloatButton with badge  */}
+
+
+      <div>
+
+        <FloatButton style={{
+          position: "relative",
+          marginTop: "100px",
+          marginLeft: "10px"
+        }} badge={{ count: 10 }}>
+
+        </FloatButton>
+      </div>
+
+      {/* icons */}
+      <div style={{ display: "flex", gap: "20px" }}>
+        <UserAddOutlined style={{ fontSize: "30px" }} />
+        <HomeOutlined rotate={120} />
+        <LoadingOutlined spin />
+      </div>
     </div>
   )
 }
